@@ -3,6 +3,12 @@
     <head>
         <meta charset="utf-8">
         <link rel="njit icon" href="../images/NJITlogo.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -12,6 +18,20 @@
             <h2>Contacts Page</h2>
             <br>
         </header>
+
+        <!-- Dropdown Menu -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Navigation
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="contactPage.html">Contact</a>
+                <a class="dropdown-item" href="mapPage.html">Map</a>
+                <a class="dropdown-item" href="schedulePage.html">Schedule</a>
+                <a class="dropdown-item" href="eventsPage.html">Events </a>
+                <a class="dropdown-item" href="stickyNotesPage.html">StickyNotes </a>
+            </div>
 
         <h3> <u>NJIT Contacts</u></h3>
         <p class="contacts">
@@ -38,18 +58,45 @@
             Friend 2: 234-758-3000
         </p>
 
-        <h4>Have A Problem With Contacts Page or the site? </h4>
-        <a href="mailto:bd294@njit.edu">Email Us</a>
+        
+
+        
+        <h4>Send An Email</h4>
+        <form action="">
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname"
+                       placeholder="First name" name="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname"
+                       placeholder="Last name" name="lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email"
+                       placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox" name="subscribe"> Subscribe
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
 
 
-        <ul class="navigation"> 
-            <li><a href="contactPage.html">Contact</a> </li>
-            <li><a href="mapPage.html">Map</a> </li>
-            <li><a href="schedulePage.html">Schedule</a> </li>
-            <li><a href="eventsPage.html">Events</a> </li>
-            <li><a href="stickyNotesPage.html">StickyNotes</a> </li>
-        </ul>
+
+
+         <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous">
+</script>
+
 
 
     </body>

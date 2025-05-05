@@ -1,6 +1,65 @@
 
+html {
+    background-color: white;
+}
 
 
+/* Style For Header */ 
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    color: white;
+
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 2.0em;
+    padding-bottom: 0;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 350%;
+}
+
+header h2 {
+    font-size: 250%;
+    
+}
+
+header h3 {
+    font-size: 150%;
+    
+}
+
+
+/*Css for Cards */ 
+
+.mainPageNavigationCard {
+     /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+
+
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.mainPageNavigationCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+  }
+
+  img {
+    border-radius: 5px 5px 0 0;
+
+  }
 
 
 
